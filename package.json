@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hello": "node index.js"
+    "start": "node index.js",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "dependencies": {
     "lodash.throttle": "^4.1.1",
     "validator": "^13.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "imagemin": "^7.0.1"
   }
 }
