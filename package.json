@@ -1,0 +1,24 @@
+{
+  "name": "node.js_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yehor-Rudzinskyi/node.js_practice.git"
+  },
+  "keywords": [],
+  "author": "Yehor_Rudzinskyi <rudzinskiy87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yehor-Rudzinskyi/node.js_practice/issues"
+  },
+  "homepage": "https://github.com/Yehor-Rudzinskyi/node.js_practice#readme",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "validator": "^13.5.1"
+  }
+}
