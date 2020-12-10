@@ -96,7 +96,7 @@ console.log(
 
 // Теперь мы сделаем скрипт в package.json, который будет вызываать наш babel
 // "scripts": {
-//     "start": "node index.js"
+//     "start": "node index.js", 
 //  "build": "babel src -d lib"
 //   },
 // и будет чётделать с файликом
